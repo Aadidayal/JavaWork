@@ -1,0 +1,21 @@
+package OOPs.Access;
+
+public class A {
+    protected int  num;
+   protected String name;
+    int arr[];
+
+    public int getNum(){
+        return num;
+    }
+   
+    public void setNum(int n) {
+        this.num = n;
+    }
+
+     protected A(int num, String name) {
+        this.num = num;
+        this.name = name;
+        this.arr = new int[10];
+    }
+}

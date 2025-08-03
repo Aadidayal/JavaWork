@@ -1,0 +1,38 @@
+// package Sorting;
+
+import java.util.Arrays;
+
+import BeforeLinearSearch.swap;
+
+public class SelectionSort {
+    public static void main(String[] args) {
+        int arr[]= {1,2,4,3,5};
+        selection(arr);
+        System.out.println(Arrays.toString(arr));
+
+    }
+    static void selection(int[] arr){
+        for(int i=0;i<arr.length;i++){
+
+            int last = arr.length-i-1;
+            int getMax= max(arr ,0,last);
+            swap(arr, getMax,last);
+        }  
+    }
+    static void swap(int arr[], int last, int getMax){
+    
+        int temp= arr[getMax];
+        arr[getMax]= arr[last];
+        arr[last]= temp;
+
+    }
+    static int max(int arr[], int start, int end){
+        int max=start;
+        for(int i=start; i<=end; i++){
+            if(arr[i]> arr[max]){
+                max= i;
+            }
+        }
+        return max;
+    }
+}
