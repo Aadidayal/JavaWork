@@ -11,7 +11,7 @@ public class DuplicateRotated {
     static int search(int[] nums, int target) {
         int pivot = findPivotWithDuplicates(nums);
 
-        // If you did not find a pivot, it means the array is not rotated
+        // If you did not find a pivo   t, it means the array is not rotated
         if (pivot == -1) {
             // Just do normal binary search
             return binarySearch(nums, target, 0, nums.length - 1);
@@ -21,7 +21,7 @@ public class DuplicateRotated {
         if (nums[pivot] == target) {
             return pivot;
         }
-
+    3
         // If target is greater than or equal to the first element, search in the left part
         if (target >= nums[0]) {
             return binarySearch(nums, target, 0, pivot - 1);

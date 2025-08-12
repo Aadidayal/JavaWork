@@ -1,8 +1,9 @@
 // package Trees;
 
 public class BinarySearchTress {
-    public class Node {
-        private int value;
+    public static class Node {
+        private final int value;
+
         private int height;
         private Node left;
         private Node right;
@@ -51,16 +52,17 @@ public class BinarySearchTress {
     }
 
     public void populate(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            this.insert(nums[i]);
+
+        for (int num : nums) {
+            this.insert(num);
         }
     }
 
-    public void populateSorted(int nums[]) {
+    public void populateSorted(int[] nums) {
         populateSorted(nums, 0, nums.length);
     }
 
-    private void populateSorted(int nums[], int start, int end) {
+    private void populateSorted(int[] nums, int start, int end) {
         if (start >= end) {
             return;
         }
@@ -98,7 +100,7 @@ public class BinarySearchTress {
 
     public static void main(String[] args) {
         BinarySearchTress tree = new BinarySearchTress();
-        int nums[] = { 5, 2, 7, 4, 1, 4, 6, 9, 8, 3, 18 };
+        int[] nums = { 5, 2, 7, 4, 1, 4, 6, 9, 8, 3, 18 };
         tree.populate(nums);
 
         tree.display();
