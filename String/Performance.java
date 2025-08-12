@@ -6,6 +6,6 @@ public class Performance {
             series = series + ch; // series += ch
         }
 
-        System.out.println(series);.
+        System.out.println(series);
     }
 }
