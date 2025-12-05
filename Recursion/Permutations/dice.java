@@ -25,5 +25,5 @@ public static void DiceFace(String s, int target , int face ){
     for(int i=0; i<=face && i> 0;i++){
         DiceFace(s+i, target-1,face);
     }
-}
+} 
 }

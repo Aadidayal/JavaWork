@@ -1,6 +1,4 @@
-src/main/resources/hibernate.cfg.xml:
-
-        <!DOCTYPE hibernate-configuration PUBLIC
+ <!DOCTYPE hibernate-configuration PUBLIC
                 "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
                 "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
@@ -11,9 +9,12 @@ src/main/resources/hibernate.cfg.xml:
         <property name="hibernate.connection.password">your_password</property>
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+<!--        -// dialect is used to generate SQL optimized for a particular database-->
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+<!--        hnm2ddl.auto is used to automatically create or update the database schema-->
+<!--        POJO is used to map the Java class to the database table-->
 
         <mapping class="com.example.entity.Account"/>
     </session-factory>

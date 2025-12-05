@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ImplementBinaryT",
+            "request": "launch",
+            "mainClass": "ImplementBinaryT",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
+            "name": "Intterupt",
+            "request": "launch",
+            "mainClass": "Intterupt",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
+            "name": "Heloo",
+            "request": "launch",
+            "mainClass": "Heloo",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
             "name": "NQueens",
             "request": "launch",
             "mainClass": "Recursion.BackTraking.MaxzeProblems.NQueens",

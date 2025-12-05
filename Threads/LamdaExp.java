@@ -15,4 +15,3 @@ public class LamdaExp {
         t1.start();
     }
 }
-l̥

@@ -13,7 +13,7 @@ public class ImplementBinaryT {
         Node right;
 
         public Node(int value) {
-            this.value = value;
+         this.value = value;
         }
     }
 
@@ -93,8 +93,8 @@ public class ImplementBinaryT {
         tree.populate(scanner);
 
         // Uncomment based on what you want to display:
-        // tree.Display(); // Normal indentation-based display
-        tree.PrettyDisplay(); // Pretty sideways tree display
+//        tree.Display(); // Normal indentation-based display
+//        tree.PrettyDisplay(); // Pretty sideways tree display
 
         scanner.close();
     }

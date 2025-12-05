@@ -106,4 +106,20 @@ public class BinarySearchTress {
         tree.display();
         System.out.println("Is the tree balanced? " + tree.balanced());
     }
+
+    public static void preOrderTraversal(Node root){
+        preOrder(root);
+    }
+
+    static void preOrder(Node node){
+        if(node==null){
+            return;
+        }
+        System.out.print(node.value + " ");
+        preOrder(node.left);
+        preOrder(node.right);
+
+    }
+    
+
 }

@@ -1,11 +1,11 @@
-package BinarySearch;
 
 public class DuplicateRotated {
 
     public static void main(String[] args) {
-        int[] arr = { 10,9,8,7,6,5,6,7,8,9 };
-      
-        System.out.println("Pivot index: " + findPivotWithDuplicates(arr) );
+
+        int[] arr = {10, 9, 8, 7, 6, 5, 6, 7, 8, 9};
+
+        System.out.println("Pivot index: " + findPivotWithDuplicates(arr));
     }
 
     static int search(int[] nums, int target) {
@@ -21,7 +21,7 @@ public class DuplicateRotated {
         if (nums[pivot] == target) {
             return pivot;
         }
-    3
+
         // If target is greater than or equal to the first element, search in the left part
         if (target >= nums[0]) {
             return binarySearch(nums, target, 0, pivot - 1);
