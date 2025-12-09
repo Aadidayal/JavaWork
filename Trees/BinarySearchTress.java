@@ -52,7 +52,7 @@ public class BinarySearchTress {
     }
 
     public void populate(int[] nums) {
-
+                                
         for (int num : nums) {
             this.insert(num);
         }
