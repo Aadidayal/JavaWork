@@ -1,4 +1,4 @@
-package Practice.Striver.Arrays;
+
 
 public class RemoveDupl {
     public static void main(String[] args) {
