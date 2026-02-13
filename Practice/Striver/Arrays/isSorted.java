@@ -1,4 +1,3 @@
-package Practice.Striver.Arrays;
 
 import java.util.Scanner;
 // only for sorted check 
@@ -15,17 +14,17 @@ public class isSorted {
         System.out.println(ans);
     }
 
-    // private static boolean heh(int arr[], int n) {
-    //     if (arr.length == 0 || arr.length == 1)
-    //         return true;
-    //     for (int i = 0; i < n - 1; i++) {
-    //         if (i < n && arr[i] > arr[i + 1]) {
-    //             return false;
-    //         }
+    private static boolean heh(int arr[], int n) {
+        if (arr.length == 0 || arr.length == 1)
+            return true;
+        for (int i = 0; i < n - 1; i++) {
+            if (i < n && arr[i] > arr[i + 1]) {
+                return false;
+            }
 
-    //     }
-    //     return true;
-    // }
+        }
+        return true;
+    }
 
     // Its sorted and rotated .. leetcode 
 
