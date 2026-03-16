@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberofSubstringsContainingAllThreeCharacters",
+            "request": "launch",
+            "mainClass": "Practice.Striver.TwoPointers.NumberofSubstringsContainingAllThreeCharacters",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
             "name": "MaxSubaaraySum",
             "request": "launch",
             "mainClass": "MaxSubaaraySum",
