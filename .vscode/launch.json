@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Questions",
+            "request": "launch",
+            "mainClass": "questions.Questions",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "OOPs.AbstractDemo.main",
+            "projectName": "JavaWork_c96173e7"
+        },
+        {
+            "type": "java",
             "name": "NumberofSubstringsContainingAllThreeCharacters",
             "request": "launch",
             "mainClass": "Practice.Striver.TwoPointers.NumberofSubstringsContainingAllThreeCharacters",

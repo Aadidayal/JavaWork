@@ -49,7 +49,7 @@ class daughter extends Son {
 class main {
     public static void main(String[] args) {
         Parent son = new Son(23);
-        daughter her = new daughter(21);
+        daughter her = new daughter(    21);
         her.age();
         // son.age();
         her.Carrername();

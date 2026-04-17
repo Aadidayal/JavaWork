@@ -82,5 +82,5 @@ class QueueUsingStack {
 //     public boolean isEmpty() {
 //         return first.isEmpty();
 //     }
-// }
+// }0
 
